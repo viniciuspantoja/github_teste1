@@ -19,7 +19,3 @@ script: pytest -v --cov --cov-report xml --cov-report term
 
 after_script:
   - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
-
-
-script:
-  - python3 app.py

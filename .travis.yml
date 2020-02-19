@@ -6,8 +6,6 @@ python:
 
 install:
   - pip3 install -r requirements.txt
-  - pip3 install coverage
-  - pip3 install codeclimate-test-reporter
 
 before_script:
   - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
@@ -15,7 +13,7 @@ before_script:
   - ./cc-test-reporter before-build
 
 script:
-- coverage run -m pytest
+- pytest --cov-report xml --cov-report term
 - codeclimate-test-reporter --file .coverage
 
 after_script:

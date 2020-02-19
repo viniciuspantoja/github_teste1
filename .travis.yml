@@ -3,11 +3,6 @@ dist: xenial
 python:
 - 3.7
 
-addons:
-  code_climate:
-    repo_token:
-      secure: "DoeuKFHf+K2elUR65WFR9kDi77PW9yxEMcNh9rUk3vILjbcg424SdCdxXtXm/EOlU7WwDqZIaylASgCjvdp466zLH2UqXMshsTCDa19H4m8sj68v88Smb3vRm453OexxxztvFXjwE5eg6rVv2EQ5pmFBxFeWlTGzLN26zWQnfcvZLtGQqlCWAQG9g3lS3y3X6RAaDMj9dX6Ghm0G4iBChYWGDx4zg5RibM3LHTnZXbYJo59KbegidBzSgZ8R05kCMmcVQeNiVggehb5rSYHLiL3OLoCdoOMPNkLb2BPwgYigkkdOvHrKfBhrcjDXiw4kLY+RggHWL8V1GFi7El6mK7wF6tNb7ufQbCzHthLWcSk7e3iXE8PO6uKpHJ/ft9OiLo2toOFSq2FcNwIO/Ckc39co5+0v9BJyzX/FVgbD5sLprwsLv0o2t9jYYXjJN4j60rATGwyRNjcfyK7sbfeJYo1TM3P3l/Ty+kqlD7m6WAkD/7pxlqMtNpaz5Vgyd/gB/5djEoumrXtTtzYeSsYWkppvIsX6Pq/OADGZDZQJ7YFPX1HoXbmIvm1rsiZcpcsjifX95TVhw29O7KYy47SZYmp1/lU3b/k9rW698BW1nKCMQqCUdk7F3xHOzDDK6tnIikHtyhztkyugEeOY9t6GCieQP8f3lnEvby1tL9tHkks="
-
 
 install:
   - pip3 install -r requirements.txt

@@ -3,7 +3,8 @@ dist: xenial
 python:
 - 3.7
 
-
+install:
+  - pip3 install pipenv
 
 before_script: # code coverage tool
    - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter

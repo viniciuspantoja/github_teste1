@@ -1,2 +1,2 @@
 pytest
-coverage==4.3
+pytest-cov

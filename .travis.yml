@@ -13,8 +13,7 @@ before_script:
   - ./cc-test-reporter before-build
 
 script:
-- pytest --cov-report xml --cov-report term
-- codeclimate-test-reporter --file .coverage
+  - pytest --cov-report term --cov=test_app
 
 after_script:
   - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
